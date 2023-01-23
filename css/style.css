@@ -32,6 +32,7 @@ body {
     color: #000814;
     max-width: 560px;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .primary-btn {
@@ -896,4 +897,67 @@ footer {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.authority-dialoge {
+    padding: 80px 0;
+}
+
+.authority-dialoge-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.authority-dialoge-content p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    color: #1f2324;
+}
+
+.mission-vission {
+    padding: 80px 0;
+}
+
+.mission-vission-content {
+    margin-top: 100px;
+}
+
+.mission-content,
+.vission-content {
+    border: 1px solid #3c3c3c;
+    padding: 20px;
+    text-align: center;
+}
+
+.mission-content img,
+.vission-content img {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.mission-content h3,
+.vission-content h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #fca311;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.mission-content p,
+.vission-content p {
+    font-size: 20px;
+    line-height: 26px;
+    color: #000814;
+}
+
+.mission-vission-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.mission-vission-image {
+    height: 100%;
 }
